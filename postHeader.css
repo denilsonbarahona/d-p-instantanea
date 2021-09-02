@@ -1,0 +1,21 @@
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; 
+}
+ 
+.postHeader .postHeader-profile {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.postHeader-profile h2 {
+    font: var(--DemiBold);
+}
+
+.postHeader .postHeader-action {
+    font-size: 1.25rem;
+    padding: 0;
+}

@@ -1,0 +1,19 @@
+.suggestions { 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.suggestions .story { 
+    inline-size: 2.5rem;
+    /* aspect-ratio: 1/1; */
+    block-size: 2.5rem;
+    padding: .15rem;
+}
+
+.suggestions h3 {
+    font: var(--DemiBold);
+    margin: 0;
+}

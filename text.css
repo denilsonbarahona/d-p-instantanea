@@ -1,0 +1,16 @@
+
+.is-primary {
+    color: var(--blue-1);
+}
+
+.is-fade {
+    opacity: .5;
+}
+
+.is-dark {
+    color: var(--black);
+}
+
+.is-white {
+    color: var(--white);
+}

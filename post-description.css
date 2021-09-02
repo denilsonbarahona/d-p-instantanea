@@ -1,0 +1,28 @@
+.postDescription {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-inline: 1rem;
+}
+
+.postDescription > * {
+   cursor: pointer;
+}
+
+.postDescription .postDescription-likes,
+.postDescription .postDescription-owner {
+    font: var(--DemiBold); 
+    margin: 0;
+}
+
+.postDescription .postDescription-body,
+.postDescription .postDescription-comments {
+    margin: 0;
+}
+
+.postDescription .postDescription-options p {
+    margin: 0; 
+    display: inline-block;
+    padding: 0;
+    font: var(--DemiSmall);
+}

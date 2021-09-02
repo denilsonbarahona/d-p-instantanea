@@ -1,0 +1,25 @@
+.storyBoard {
+    background: var(--white);
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: .25rem;
+    overflow-x: hidden; 
+    align-items: center;
+    border: 1px solid var(--gray20);
+}
+
+
+.storyBoard .storyBoard-item {
+    font: optional;
+    text-align: center;
+}
+
+.storyBoard .storyBoard-item p{ 
+    margin: 0;
+    margin-block: .25rem;
+    white-space: nowrap;
+    max-inline-size: 5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

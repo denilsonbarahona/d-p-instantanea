@@ -1,0 +1,20 @@
+.profileContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2.75rem;
+    padding-block-end: 4.62rem;
+    box-sizing: border-box;
+}
+
+.profileContent img {
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.profileContent .profileContent-img {
+    inline-size: 18.31rem;
+    block-size: 18.31rem;
+    cursor: pointer;
+}

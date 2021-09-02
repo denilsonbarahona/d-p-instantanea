@@ -1,0 +1,19 @@
+.person { 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.person .person-tag {
+    display: flex; 
+    align-items: center;
+    gap: .5rem;
+}
+
+.person-information>* {
+    margin: 0; 
+}
+
+.person-information h3 {
+    font: var(--DemiBold);
+}

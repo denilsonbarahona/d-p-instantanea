@@ -1,0 +1,46 @@
+/*suggestions*/
+@import './suggestions.css';
+
+
+.side-panel { 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-block-start: 1rem;
+}
+
+.side-panel .facebook-settings ul {
+
+    padding: 0;  
+    list-style: none;
+}
+
+.side-panel .facebook-settings li {
+ margin: 0;
+ display: inline-block; 
+ position: relative;
+ padding-inline-end: .5rem;
+
+}
+
+.side-panel .facebook-settings li:last-child {
+    padding-inline-end: 0;
+}
+
+
+.side-panel .facebook-settings li::after {
+    content: "";
+    inline-size: .25rem;
+    aspect-ratio: 1/1;
+    background: currentColor;
+    position: absolute; 
+    inset-block-end: calc(50% - .125rem);
+    inset-inline-end: 0;
+    border-radius: 50%;
+}
+
+
+.side-panel .facebook-settings li:last-child::after{
+    content: "";
+    display: none;
+}

@@ -1,0 +1,34 @@
+.modal-story .modal-form {    
+    block-size: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    inline-size: 21.7rem; 
+    inset-block-end: 0;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.modal-story .modal-form input {     
+    block-size: 3rem;
+    inline-size: 16.87rem;
+    background: transparent;
+    border: 1px solid var(--white);
+    border-radius: 3rem;
+    padding-inline: 1rem;
+    color: var(--white);
+}
+
+.modal-story .modal-form button {
+    padding: 0;
+}
+
+.modal-story .modal-form button i {
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.modal-story .modal-form input::placeholder{
+    color: var(--white);
+}

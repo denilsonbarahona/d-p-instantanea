@@ -1,0 +1,21 @@
+.button { 
+    border: 1px solid transparent;    
+    text-decoration: none;
+    font: var(--DemiBold);
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    display: inline-block;
+    background: transparent;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(.97);
+}
+
+.button.with-border {
+    border: 1px solid var(--black);
+    border-radius: .25rem;
+}
+

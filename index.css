@@ -1,0 +1,41 @@
+/** global settings **/
+@import "./global.css";
+@import "./icon.css";
+@import "./fonts.css";
+
+/*layouts*/
+@import './side-panel.css';
+@import './wrapper.css';
+@import './grid.css';
+@import './content.css';
+
+/** ui actions and text**/
+@import './button.css';
+@import './text.css';
+@import './comment-form.css';
+
+/*story*/
+@import './story.css';
+@import './story-board.css';
+
+/*person and profile*/
+@import './person.css';
+@import './profile.css';
+
+/*post*/
+@import './post-action.css';
+@import './post-description.css';
+@import './postHeader.css';
+@import './post.css';
+@import './profilePost.css';
+
+/*header*/
+@import './header.css';
+/*tab header*/
+@import './tab-header.css';
+
+
+/*modal*/
+@import './modal.css';
+
+

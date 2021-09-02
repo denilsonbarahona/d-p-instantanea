@@ -1,0 +1,127 @@
+.header {
+    background: var(--white);
+    padding-block: .5rem;
+    border: 1px solid var(--gray20); 
+    min-inline-size: 60.62rem;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.header .wrapper .header-logo { 
+    inline-size: 5.5rem;
+    block-size: 2rem;
+    object-fit: cover;
+}
+
+.header .wrapper .header-logo img {
+    inline-size: 100%;
+    block-size: 100%;
+    vertical-align: middle;
+}
+
+.header .header-search  {
+    position: relative;
+}
+
+.header .searchGroup{
+    overflow: hidden;
+    border-radius: .25rem;
+    position: relative;
+    border: 1px solid var(--gray20);
+}
+
+.header .header-search input[type="search"] {
+    block-size: 2rem;
+    inline-size: 15.625rem;
+    padding-inline-end: .5rem;
+    padding-inline-start: 2rem;
+    border: none;
+    font: var(--DemiRegular);
+}
+ 
+
+.header .header-search:focus-within 
+.panelArrow 
+ {
+   display: inline-block;
+}
+
+.header .header-search:focus-within 
+.seachPanel
+ {
+   display: inline-block;
+}
+
+.header .seachPanel .seachPanel-person{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.header .seachPanel .seachPanel-person >* {
+    cursor: pointer;
+}
+
+.header  .panelArrow {
+    inline-size: .5rem;
+    block-size: .5rem;
+    background: var(--white);
+    position: absolute; 
+    display: none;
+    inset-inline-end: 50%;
+    transform: rotate(45deg);
+    z-index: 2;
+    border-block-start: 1px solid var(--gray20);
+    border-inline-start: 1px solid var(--gray20);
+}
+
+
+.header .seachPanel {
+    border: 1px solid var(--gray20);
+    background: var(--white);
+    z-index: 1;    
+    inline-size: 100%;
+    display: none;
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    position: absolute;
+    margin-block-start: .25rem;
+    border-radius: .25rem;
+}
+
+.header .seachPanel .story {
+    inline-size: 2.5rem; 
+    block-size: 2.5rem;
+    padding: .15rem;    
+}
+
+.header .header-search i {
+    position: absolute;
+    z-index: 1;
+    font-size: 1.5rem;
+    color: var(--black);
+    inset-inline-start: .5rem;
+    inset-block-start: calc(50% - 0.68rem);
+}
+
+.header .header-action {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header .header-action i {
+    font-size: 1.5rem;
+}
+
+.header .header-action img {
+    vertical-align: middle;
+}
+
+.header .header-action >* { 
+    padding: 0;
+}

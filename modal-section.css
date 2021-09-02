@@ -1,0 +1,20 @@
+.modal-sections {
+    block-size: .3125rem;
+    inline-size: 100%;  
+    display: flex; 
+    gap: .25rem;
+    margin-block-start: 1rem; 
+    margin-block-end: .5rem;
+}
+
+.modal-sections .modal-storyItem{
+    inline-size: 100%;
+    block-size: .3125rem;
+    background: var(--gray30);
+}
+
+.modal-storyItem.is-whatched{ 
+    background: var(--white); 
+}
+
+

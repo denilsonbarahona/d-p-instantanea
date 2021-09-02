@@ -1,0 +1,59 @@
+.profilePost {
+    background: rgba(0, 0, 0, 0);
+    inline-size: 100%;
+    border: none;  
+    padding: 0;
+    block-size: auto;
+}
+
+.profilePost[open]{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content-post {
+    margin: auto;
+    inline-size: 57rem;
+    padding: 0;
+    background: var(--white);
+    display: grid;
+    grid-template-columns: 36.18rem 1fr;
+}
+
+.profilePost::backdrop {
+    background: rgba(0, 0, 0, .7);
+
+}
+
+.contentPostModal img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.profilePost .postHeader:first-child {
+    border: 1px solid var(--gray20);
+}
+
+.profilePost .contentPostModal-tag {
+    margin-inline-start: 3.5rem;
+}
+
+.profilePost .contentPostModal-tag a{
+    color: #05396B;
+}
+
+.post-modal-header {
+    align-self: flex-end;
+}
+
+
+.post-modal-header .modal-close {
+    color: var(--white);  
+    
+    outline: none;
+    font-size: 1.5rem; 
+ 
+}
+ 

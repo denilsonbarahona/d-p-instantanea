@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Instantanea</title>
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-logo">
+                <img src="./img/logo.png" width="88" height="32" alt="Instantanea">
+            </div>
+            <div class="header-search">
+                <div class="searchGroup">
+                    <i class="icon-ic-search" aria-hidden="true"></i>
+                    <form class="search-form" role="search">
+                        <input type="search" placeholder="Buscar">
+                    </form>    
+                </div>
+                <div class="panelArrow"></div>
+                <div class="seachPanel">
+                    
+                    <div class="seachPanel-person">
+                        <div class="person">
+                            <div class="person-tag">
+                                <div class="person-story">
+                                    <div class="story" aria-label="ver historia de almuervega">
+                                        <img src="./img/person-9.png" width="40" height="40" alt="historia de almuervega">
+                                    </div>
+                                </div>
+                                <div class="person-information">
+                                    <h3 class="is-dark">uxcristopher</h3>
+                                    <p class="is-dark is-fade">Christopher</p>
+                                </div>    
+                            </div> 
+                        </div>
+
+                        <div class="person">
+                            <div class="person-tag">
+                                <div class="person-story">
+                                    <div class="story" aria-label="ver historia de almuervega">
+                                        <img src="./img/person-10.png" width="40" height="40" alt="historia de almuervega">
+                                    </div>
+                                </div>
+                                <div class="person-information">
+                                    <h3 class="is-dark">ux_amad</h3>
+                                    <p class="is-dark is-fade">Amador</p>
+                                </div>    
+                            </div> 
+                        </div>
+
+                        <div class="person">
+                            <div class="person-tag">
+                                <div class="person-story">
+                                    <div class="story" aria-label="ver historia de almuervega">
+                                        <img src="./img/person-11.png" width="40" height="40" alt="historia de almuervega">
+                                    </div>
+                                </div>
+                                <div class="person-information">
+                                    <h3 class="is-dark">uifilomena</h3>
+                                    <p class="is-dark is-fade">Filomena</p>
+                                </div>    
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="header-action">
+                <button class="button">
+                    <i class="icon-ic-home-fill" aria-hidden="true"></i>
+                </button>
+
+                <button class="button">
+                    <i class="icon-ic-messenger" aria-hidden="true"></i>
+                </button>
+
+                <button class="button">
+                    <i class="icon-ic-heart-outline" aria-hidden="true"></i>
+                </button>
+
+                <div class="header-profil">
+                    <img src="./img/person-1.png" width="24" height="24" alt="imagen de tu perfil">
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+        <dialog id="story-modal" class="modal modal1">
+            <div class="modal-body">
+
+                
+                <div class="modal-header">
+                    <div class="modalHeader-image">
+                        <img src="./img/logo-white.png" width="88" height="32" alt="logo de instantanea">
+                    </div>
+                    
+                    <button id="close-modal" class="modal-close button"> X </button>
+                </div>
+                
+                <div class="modal-story">
+                    
+                    <div class="modal-arrow left-arrow">
+                        <img src="./icon/icons-backward.png" alt="navegar atras en las historias">
+                    </div>
+            
+                    <div class="modal-main">
+                        <div class="modal-storyContent">
+                            <div class="modal-sections">
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem is-whatched"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                                <div class="modal-storyItem"></div>
+                            </div>
+                            <div class="person">
+                                <div class="person-tag">
+                                    <div class="person-story">
+                                        <div class="story" aria-label="ver historia de almuervega">
+                                            <img src="./img/person-9.png" width="40" height="40" alt="historia de almuervega">
+                                        </div>
+                                    </div>
+                                    <div class="person-information">
+                                        <h3 class="is-white">uxcristopher <span>1h</span></h3>                                    
+                                    </div>    
+                                </div> 
+                            </div>
+                        </div>
+                        
+                        <div class="modal-content">
+                            <img src="./img/story.png" width="382" height="674" alt="imagen">
+                        </div>
+    
+                        <div class="modal-form">
+                            <form>
+                                <input type="text" placeholder="responder a joaquin" alt="responder a joaquin">
+                            </form>
+                            <button class="button" title="enviar mensaje a joaquin" aria-label="enviar mensaje a joaquin">
+                                <i class="icon-ic-pic" aria-hidden="true" ></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    
+                    <div class="modal-arrow ritgh-arrow">
+                        <img src="./icon/icons-forward.png" alt="navegar adelante en las historias">
+                    </div>
+
+                </div>
+            </div>
+            
+            
+        </dialog>
+    
+
+        <div class="wrapper">
+
+            <div class="grid">
+
+                <div class="content">
+
+                    <div class="storyBoard">
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story" aria-label="ver tu historia">
+                                    <img src="./img/person-1.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark is-fade">Tu historia</p>
+                            </div>
+                        </div>
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-2.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">esther</p>
+                            </div>
+                        </div>
+
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-3.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">carlos</p>
+                            </div>
+                        </div>
+
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-4.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">juan</p>
+                            </div>
+                        </div>
+
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-5.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">penny</p>
+                            </div>
+                        </div>
+
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-6.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">leonard</p>
+                            </div>
+                        </div>
+
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-7.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">sheldon</p>
+                            </div>
+                        </div>
+
+                        <div class="storyBoard-item">
+                            <div class="person-story">
+                                <div class="story hasStory" aria-label="ver tu historia">
+                                    <img src="./img/person-8.png" width="64" height="64" alt="tu historia">
+                                </div>
+                            </div>
+                            <div class="storyBoard-description">
+                                <p class="is-dark">jhon doe</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="post">
+                        <div class="postHeader">
+                            <div class="postHeader-profile">
+                                <img src="./img/person-2.png" height="32" width="32" alt="imagen de perfil de wendy">
+                                <a href="./profile.html"><h2 class="is-dark">wendy</h2></a>
+                                
+                            </div>
+                            <button class="button postHeader-action">
+                                <i class="icon-ic-more" aria-hidden="true" ></i>
+                            </button>
+                        </div>
+                        <div class="postContent">
+                            <img src="./img/post-1.png" height="636" width="636" alt="contenido del post">
+                        </div>
+                        <div class="postActions">
+                            <div class="postActions-group1">
+                                <button class="button" title="me gusta este post" aria-label="me gusta este post">
+                                    <i class="icon-ic-heart-fill" aria-hidden="true"></i>
+                                </button>
+                                <button class="button" title="comentar este post" aria-label="comentar este post">
+                                    <i class="icon-ic-message-outline" aria-hidden="true"></i>
+                                </button>
+                                <button class="button" title="compartir este post" aria-label="compartir este post">
+                                    <i class="icon-ic-pic" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                    
+                            <div class="postActions-group1">
+                                <button class="button" title="guardar este post" aria-label="guardar este post">
+                                    <i class="icon-ic-tag-outline" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                
+                        <div class="postDescription">
+                            <p class="postDescription-likes is-dark">49,643 Me gusta</p>
+                            <p class="postDescription-body is-dark">
+                                <span class="postDescription-owner" >wendy</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur est iure assumenda doloribus laborum ab laboriosam praesentium sunt architecto a impedit sint, similique quo aut voluptas, nihil obcaecati dicta.
+                            </p>
+                            <p class="postDescription-comments">Ver los 269 comentarios</p>
+                            <div class="postDescription-options">
+                                <p class="postDescription-time">Hace 31 minutos</p>
+                                <p class="postDescription-translate is-dark">Ver traducción</p>
+                            </div>
+                            
+                        </div>
+                
+                        <form class="createComment">
+                            <div class="createComment-u">
+                                <img src="./img/person-1.png" width="24" height="24" alt="you profile" >
+                            </div>
+                            <input class="createComment-comment" type="text" placeholder="Agregar un comentario">
+                            <button class="button is-primary is-fade">Publicar</button>
+                        </form>
+                
+                    </div>
+
+
+                    <div class="post">
+                        <div class="postHeader">
+                            <div class="postHeader-profile">
+                                <img src="./img/person-2.png" height="32" width="32" alt="imagen de perfil de wendy">
+                                <a href="./profile.html"><h2 class="is-dark">wendy</h2></a>
+                            </div>
+                            <button class="button postHeader-action">
+                                <i class="icon-ic-more" aria-hidden="true" ></i>
+                            </button>
+                        </div>
+                        <div class="postContent">
+                            <img src="./img/post-2.png" height="636" width="636" alt="contenido del post">
+                        </div>
+                        <div class="postActions">
+                            <div class="postActions-group1">
+                                <button class="button" title="me gusta este post" aria-label="me gusta este post">
+                                    <i class="icon-ic-heart-fill" aria-hidden="true"></i>
+                                </button>
+                                <button class="button" title="comentar este post" aria-label="comentar este post">
+                                    <i class="icon-ic-message-outline" aria-hidden="true"></i>
+                                </button>
+                                <button class="button" title="compartir este post" aria-label="compartir este post">
+                                    <i class="icon-ic-pic" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                    
+                            <div class="postActions-group1">
+                                <button class="button" title="guardar este post" aria-label="guardar este post">
+                                    <i class="icon-ic-tag-outline" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                
+                        <div class="postDescription">
+                            <p class="postDescription-likes is-dark">49,643 Me gusta</p>
+                            <p class="postDescription-body is-dark">
+                                <span class="postDescription-owner" >wendy</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur est iure assumenda doloribus laborum ab laboriosam praesentium sunt architecto a impedit sint, similique quo aut voluptas, nihil obcaecati dicta.
+                            </p>
+                            <p class="postDescription-comments">Ver los 269 comentarios</p>
+                            <div class="postDescription-options">
+                                <p class="postDescription-time">Hace 31 minutos</p>
+                                <p class="postDescription-translate is-dark">Ver traducción</p>
+                            </div>
+                            
+                        </div>
+                
+                        <form class="createComment">
+                            <div class="createComment-u">
+                                <img src="./img/person-1.png" width="24" height="24" alt="you profile" >
+                            </div>
+                            <input class="createComment-comment" type="text" placeholder="Agregar un comentario">
+                            <button class="button is-primary is-fade">Publicar</button>
+                        </form>
+                
+                    </div>
+
+
+
+                    <div class="post">
+                        <div class="postHeader">
+                            <div class="postHeader-profile">
+                                <img src="./img/person-2.png" height="32" width="32" alt="imagen de perfil de wendy">
+                                <a href="./profile.html"><h2 class="is-dark">wendy</h2></a>
+                            </div>
+                            <button class="button postHeader-action">
+                                <i class="icon-ic-more" aria-hidden="true" ></i>
+                            </button>
+                        </div>
+                        <div class="postContent">
+                            <img src="./img/post-3.png" height="636" width="636" alt="contenido del post">
+                        </div>
+                        <div class="postActions">
+                            <div class="postActions-group1">
+                                <button class="button" title="me gusta este post" aria-label="me gusta este post">
+                                    <i class="icon-ic-heart-fill" aria-hidden="true"></i>
+                                </button>
+                                <button class="button" title="comentar este post" aria-label="comentar este post">
+                                    <i class="icon-ic-message-outline" aria-hidden="true"></i>
+                                </button>
+                                <button class="button" title="compartir este post" aria-label="compartir este post">
+                                    <i class="icon-ic-pic" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                    
+                            <div class="postActions-group1">
+                                <button class="button" title="guardar este post" aria-label="guardar este post">
+                                    <i class="icon-ic-tag-outline" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                
+                        <div class="postDescription">
+                            <p class="postDescription-likes is-dark">49,643 Me gusta</p>
+                            <p class="postDescription-body is-dark">
+                                <span class="postDescription-owner" >wendy</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur est iure assumenda doloribus laborum ab laboriosam praesentium sunt architecto a impedit sint, similique quo aut voluptas, nihil obcaecati dicta.
+                            </p>
+                            <p class="postDescription-comments">Ver los 269 comentarios</p>
+                            <div class="postDescription-options">
+                                <p class="postDescription-time">Hace 31 minutos</p>
+                                <p class="postDescription-translate is-dark">Ver traducción</p>
+                            </div>
+                            
+                        </div>
+                
+                        <form class="createComment">
+                            <div class="createComment-u">
+                                <img src="./img/person-1.png" width="24" height="24" alt="you profile" >
+                            </div>
+                            <input class="createComment-comment" type="text" placeholder="Agregar un comentario">
+                            <button class="button is-primary is-fade">Publicar</button>
+                        </form>
+                
+                    </div>
+
+
+
+                </div>
+
+                <div class="panel">
+                         
+                    <div class="side-panel">
+                    <a href="./profile.html">
+                        <div class="person">
+                            <div class="person-tag">
+                                <div class="person-story">
+                                    <div class="story" aria-label="ver tu historia">
+                                        <img src="./img/person-1.png" width="64" height="64" alt="tu historia">
+                                    </div>
+                                </div>
+                                <div class="person-information">
+                                    <h3 class="is-dark">Denilson Barahona</h3>
+                                    <p class="is-dark is-fade">denilsonbarahona</p>
+                                </div>    
+                            </div>        
+                            <div class="person-action">
+                                <button class="button is-primary">Cambiar</button>
+                            </div>    
+                        </div>
+                    </a>
+                        <div class="suggestions">
+                            <h3 class="is-dark is-fade" >Sugerencias para ti</h3>
+                            
+                            <a href="./profile.html">
+                                <div class="person">
+                                    <div class="person-tag">
+                                        <div class="person-story">
+                                            <div class="story" aria-label="ver historia de almuervega">
+                                                <img src="./img/person-8.png" width="40" height="40" alt="historia de almuervega">
+                                            </div>
+                                        </div>
+                                        <div class="person-information">
+                                            <h3 class="is-dark">Almudervega</h3>
+                                            <p class="is-dark is-fade">sugerencia para ti</p>
+                                        </div>    
+                                    </div>
+                                    <div class="person-action">
+                                        <button class="button is-primary">Seguir</button>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="./profile.html">
+                                <div class="person">
+                                    <div class="person-tag">
+                                        <div class="person-story">
+                                            <div class="story" aria-label="ver historia de victorcoral">
+                                                <img src="./img/person-6.png" width="40" height="40" alt="historia de victorcoral">
+                                            </div>
+                                        </div>
+                                        <div class="person-information">
+                                            <h3 class="is-dark">victorcoral</h3>
+                                            <p class="is-dark is-fade">sugerencia para ti</p>
+                                        </div>    
+                                    </div>
+                                    <div class="person-action">
+                                        <button class="button is-primary">Seguir</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./profile.html">
+                                <div class="person">
+                                    <div class="person-tag">
+                                        <div class="person-story">
+                                            <div class="story" aria-label="ver historia de evanodal">
+                                                <img src="./img/person-4.png" width="40" height="40" alt="historia de evanodal">
+                                            </div>
+                                        </div>
+                                        <div class="person-information">
+                                            <h3 class="is-dark">evanodal</h3>
+                                            <p class="is-dark is-fade">sugerencia para ti</p>
+                                        </div>    
+                                    </div>
+                                    <div class="person-action">
+                                        <button class="button is-primary">Seguir</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./profile.html">
+                            
+                                <div class="person">
+                                    <div class="person-tag">
+                                        <div class="person-story">
+                                            <div class="story" aria-label="ver historia de mohammedev">
+                                                <img src="./img/person-5.png" width="40" height="40" alt="historia de mohammedev">
+                                            </div>
+                                        </div>
+                                        <div class="person-information">
+                                            <h3 class="is-dark">mohammedev</h3>
+                                            <p class="is-dark is-fade">sugerencia para ti</p>
+                                        </div>    
+                                    </div>
+                                    <div class="person-action">
+                                        <button class="button is-primary">Seguir</button>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+
+                        <div class="facebook-settings">
+                            <ul>
+                                <li>Información</li>
+                                <li>Ayuda</li>
+                                <li>Prensa</li>
+                                <li>API</li>
+                                <li>Privacidad</li>
+                                <li>Condiciones</li>
+                                <li>Ubicaciones</li>
+                                <li>Cuentas destacadas</li>
+                                <li>Hashtag</li>
+                                <li>Idioma</li>
+                            </ul>
+                        </div>
+                        <p>© 2020 INSTAGRAM FROM FACEBOOK</p>
+
+                    </div>    
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    
+</body>
+
+<script>
+    $modal = document.querySelector("#story-modal")
+    $close = document.querySelector("#close-modal")
+    $stories = document.querySelectorAll(".storyBoard-item")
+    $stories.forEach($story => $story.addEventListener('click', ()=>{
+        $modal.showModal()
+    }))
+
+    $close.addEventListener("click",()=>{
+        $modal.close()
+    })
+
+</script>
+
+</html>

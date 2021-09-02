@@ -1,0 +1,8 @@
+@import './profile-content.css';
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-block-end: 4.62rem;
+}

@@ -1,0 +1,31 @@
+:root{
+    --brand2:#ED4756;
+    --blue-1:#3898F3;
+    --blue-2:#306197;
+    --gray10:#FAFAFA;
+    --gray20:#DBDBDB;
+    --gray30:#686868;
+    --gray40:#3A3A3A;
+    --white:#FFFFFF;
+    --black:#000000;
+
+    --DemiTitle: 400 1.75rem/2.39rem "Avenir Next";
+    --DemiDescription: 700 1rem/1.37rem "Avenir Next";
+    --DemiBigBold: 600 1rem/1.37rem "Avenir Next";
+
+    --DemiBold: 600 .875rem/1.1875rem "Avenir Next";
+    --DemiRegular: 400 .875rem/1.1875rem "Avenir Next";
+    --DemiSmall: 400 .625rem/0.8575rem "Avenir Next";
+}
+
+body {
+  font-size: 16px;
+  font: var(--DemiRegular);
+  color: rgba(0, 0, 0, .2);
+  background: var(--gray10); 
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,61 @@
+@import './modal-section.css';
+@import './modal-form.css';
+@import './modal-arrow.css';
+
+.modal1 {
+    background: var(--black);
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.dialogBody {
+    position: relative;
+}
+ 
+.modal-header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5rem; 
+}
+
+.modal-header img {
+    vertical-align: middle;
+}
+
+.modal1 .button{
+    color: var(--white);
+    outline: none;
+}
+
+.modal-story{ 
+    /* max-inline-size: 23.87rem; */ 
+    max-inline-size: 32.87rem; 
+    margin: auto;
+    position: relative; 
+}
+
+.modal-story .modal-main {
+    max-inline-size: 23.87rem;
+    margin: auto;
+  
+    overflow: hidden;  
+    border-radius: .625rem;
+}
+
+.modal-content img{ 
+    vertical-align: middle;
+}
+
+.modal-storyContent {
+    position: absolute;
+    max-inline-size: 23.87rem;
+    inline-size: 100%;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+}
+
+.modal-storyContent .story {
+    inline-size: 2.5rem;
+    block-size: 2.5rem; 
+}
